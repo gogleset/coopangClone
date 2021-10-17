@@ -8,14 +8,13 @@
 }
 
 .header .header_inner{
-   height: 35px;
-   background-color: rgb(240, 240, 240);
+   height: 35px;background-color: rgb(240, 240, 240);
 }
 .header .header_inner .topbar{
     width: 1020px;
     height: 35px;
     margin: auto;
-    background-color: rgb(105, 104, 104);
+    ;
 }
 
 .leftmenu{
@@ -42,36 +41,49 @@
 .header .header_inner .titlebar{
     width: 1020px;
     height: 115px;
-    background-color: rosybrown;
+    
     margin: auto;
 }
 
 .category{
     width: 110px;
     height: 115px;
-    background-color: seagreen;
+    background-color: rgb(66, 133, 244);
     text-align: center;
+    
+}
+.category .category_img{
+    width: 45px;
+    height: 45px;
+    margin-top: 30px;
+    margin-left: 32px;
+    
+    background-image: url(/img/pc_header_img_sprite_180104.png);
+    background-position: -32px -215px;
 }
 .category a{
-    line-height: 115px;
+    width: 110px;
+    height: 115px;
+    color: white;
+    font-size: 14px;
 }
 
 .realtitle{
     width: 880px;
     height: 52px;
-    background-color: slategrey;
+    
     padding-top: 30px;
     padding-left: 30px;
 }
 .realtitle .title{
     width: 180px;
     height: 50px;
-    background-color: springgreen;
+    
 }
 .realtitle .title a{
     width: auto;
     height: 50px;
-    background-color: steelblue;
+    ;
     display: block;
 }
 .realtitle .title a img{
@@ -84,23 +96,23 @@
 .searchbar{
     width: 500px;
     height: 50px;
-    background-color: tan;
+    
     line-height: 50px;
-    margin: 0px 20px;
+    margin: 0px 10px;
     border: 1px solid rgb(66, 133, 244);
 }
 .searchbar .list{
     width: 500px;
     height: 50px;
-    background-color: teal;
+    
     font-size: px;
 }
 .list div{
-    width: 120px;
+    width: 100px;
     height: 50px;
     font-size: 13px;
     text-indent: 10px;
-    background-color: blanchedalmond;
+    
     border-right: 1px solid rgb(221, 221, 221)
 }
 .list input{
@@ -129,9 +141,9 @@
 }
 
 .myMenus{
-    width: 158px;
+    width: 164px;
     height: 50px;
-    background-color: coral;
+    
     text-align: center;
 }
 .myMenus .myMenu{
@@ -175,7 +187,7 @@
 .gnbmenubar{
     width: 900px;
     height: 23px;
-    background-color: crimson;
+    
     text-align: center;
     padding-top: 10px;
     padding-left: 10px;

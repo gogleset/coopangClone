@@ -3,18 +3,18 @@
 .footer{
     width: 100%;
     height: 222px;
-    background-color: rgb(70, 139, 93);
+    
     color: rgb(85, 85, 85);
 }
 .footer1{
     width: 100%;
     height: 40px;
     font-size: 12px;
-    background-color: darkgoldenrod;
+    
     text-align: center;
     margin: auto;
-    border-top: 1px solid #555;
-    border-bottom: 0.1em solid  #555;
+    border-top: 1px solid rgb(206, 206, 206);
+    border-bottom: 0.2em solid  rgb(207, 207, 207);
 }
 .footer1 a{
     display: inline-block;
@@ -23,7 +23,7 @@
     color: #555;
     height: 12px;
     margin-top: 15px;
-    border-left: solid 1px #555;
+    border-left: solid 1px rgb(211, 211, 211);
 }
 .footer1 a:first-child{
     border-left: none;
@@ -33,7 +33,7 @@
 .footer2{
     width: 1020px;
     height: 100px;
-    background-color: beige;
+    
     margin: auto;
 }
 .footer2 h1{
@@ -42,7 +42,7 @@
     height: 80px;
     margin-top: 20px;
     background-position: -20px -30px;
-    background-color: blueviolet;
+ 
     display: block;
     text-indent: -10000px;
 }
@@ -52,7 +52,7 @@
     display: block;
     width: 290px;
     height: 74px;
-    background-color: brown;
+
     margin-top: 20px;
     padding-top: 6px;
     padding-left: 10px;
@@ -60,7 +60,7 @@
 .footer_info{
     width: 290px;
     height: 78px;
-    background-color: chartreuse;
+  
     display: inline-block;
     font-size: 12px;
     margin-top: 20px;
@@ -78,7 +78,7 @@
     padding-top: 4px;
     padding-left: 10px;
     line-height: 15px;
-    background-color: rosybrown;
+    
 }
 /* footer2 끝 */
 
@@ -90,20 +90,27 @@
 
 /* footer4 */
 .footer4{
+    width: 100%;
+    height: 110px;
+    background-color: #000;
+    margin-top: 10px;
+}
+.footer4_inner{
     width: 1020px;
     height: 80px;
     margin: auto;
-    background-color: salmon;
 }
-.footer4 p{
+.footer4_inner p{
     font-size: 11px;
     line-height: 15px;
     padding-top: 15px;
-    background-color: sandybrown;
+   
     display: block;
     width: 850px;
     height: 65px;
     margin-left: 10px;
+    color: #666;
+    font-size: 12px;
 }
 .sns{
     width: 120px;

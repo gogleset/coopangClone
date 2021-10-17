@@ -1,1 +1,28 @@
 @charset "utf-8";
+/* rgb(66, 133 ,244) */
+
+.content2{
+    background-color: rosybrown;
+    width: 1020px;
+    height: 1040px;
+    margin: auto;
+}
+.content2_inner{
+    width: 990px;
+    height: 1010px;
+    background-color: royalblue;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+.content2_title{
+    font-size: 25px;
+    display: inline-block;
+    width: 150px;
+    background-color: saddlebrown;
+
+}
+.content2_inner span{
+    font-size: 15px;
+    background-color: salmon;
+    
+}
